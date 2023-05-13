@@ -75,11 +75,21 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: green;
+  margin-top: 10px;
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: green;
 }
 
 p.danger {
-	color: red;
+  margin-top: 10px;
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: rgb(238, 0, 0);
 }
 /************ Navbar Css ************/
 nav.navbar {
@@ -315,11 +325,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background: linear-gradient(90.21deg, #90d1ff05 4%, #90d1ff9a 100%);
 }
-.skill .item{
-   width: 159px;
-}
+
 .skill-bx {
-  background: #151515;
+  background: #000000ad;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -341,10 +349,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img {
-  width: 50%;
+
+.skill-slider .item {
+  width: 7vw;
   margin: 0 auto 15px auto;
+
 }
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -363,9 +374,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: #066db8;
 }
 .project p {
-  color: #B8B8B8;
+  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -525,7 +537,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -538,6 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
+  border-radius: 20px;
   background: #121212;
   width: 0;
   height: 100%;
