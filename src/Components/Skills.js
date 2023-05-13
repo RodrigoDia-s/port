@@ -1,6 +1,6 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import react from "../logo.svg";
+import java from "../assets/img/java.png";
+import meter3 from "../assets/img/java.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -35,30 +35,55 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Veja algumas tecnologias, linguagens e softwares com as quais já trabalhei.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                        <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={java} alt="Image" />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={java} alt="Image" />
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>C#</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={react} alt="Image" />
+                                <h5>Spring</h5>
                             </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>ASP .NET</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>Bootstrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>Django</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>SVN</h5>
+                            </div>
+                           
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        
     </section>
   )
 }
