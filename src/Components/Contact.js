@@ -33,18 +33,17 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
-    if(message.trim().length !== 0 || nome.trim().length !== 0 || email.trim().length !== 0){
+    if(formDetails.nome.trim().length!== 0 && formDetails.message.trim().length !== 0 && formDetails.email.trim().length !== 0){
       setButtonText("Enviando...");
       emailjs.sendForm('service_ellnlfh', 'template_92l6g9v', form.current, 'ctoNrpkvEZH01BCbQ')
       .then((result) => {
         setStatus({ succes: true, mensagem: 'Mensagem enviada com sucesso' });
         setButtonText("Enviar");
-        e.target.reset();
+      
       }, (error) => {
         setStatus({ succes: false, mensagem: 'Algo deu errado :c tente novamente mais tarde.' });
         setButtonText("Enviar");
-        e.target.reset();
+        
       });
     }else {
       setStatus({ succes: false, mensagem: 'Preencha todos os campos.' });
