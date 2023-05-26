@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.e2f1275a.css",
-    "main.js": "/port/static/js/main.364edd66.js",
+    "main.css": "/port/static/css/main.35f09af8.css",
+    "main.js": "/port/static/js/main.d104af10.js",
     "static/js/787.b2e1b36e.chunk.js": "/port/static/js/787.b2e1b36e.chunk.js",
     "static/media/color-sharp2.png": "/port/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-img2.png": "/port/static/media/project-img2.22bddbb6292c551c5318.png",
+    "static/media/project-img3.gif": "/port/static/media/project-img3.bb630e29806c7c223bbc.gif",
+    "static/media/project-img1.png": "/port/static/media/project-img1.6275330c2814a2b09f37.png",
     "static/media/curriculo.pdf": "/port/static/media/curriculo.9076f582dabd0c1f0715.pdf",
     "static/media/CentraNo2-Bold.ttf": "/port/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/port/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/port/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/project-img1.png": "/port/static/media/project-img1.d593db3f12901bc685c2.png",
-    "static/media/footer-bg.png": "/port/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/project-img2.png": "/port/static/media/project-img2.2e52097c417f9f1134b0.png",
-    "static/media/project-img3.png": "/port/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/revicons.eot": "/port/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/port/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/port/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/port/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
-    "static/media/nav-icon3.svg": "/port/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/port/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/nav-icon1.svg": "/port/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/port/index.html",
-    "static/media/nav-icon2.svg": "/port/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.e2f1275a.css.map": "/port/static/css/main.e2f1275a.css.map",
-    "main.364edd66.js.map": "/port/static/js/main.364edd66.js.map",
+    "main.35f09af8.css.map": "/port/static/css/main.35f09af8.css.map",
+    "main.d104af10.js.map": "/port/static/js/main.d104af10.js.map",
     "787.b2e1b36e.chunk.js.map": "/port/static/js/787.b2e1b36e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2f1275a.css",
-    "static/js/main.364edd66.js"
+    "static/css/main.35f09af8.css",
+    "static/js/main.d104af10.js"
   ]
 }
