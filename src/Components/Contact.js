@@ -7,13 +7,13 @@ import TrackVisibility from 'react-on-screen';
 export const Contact = () => {
 
   const formInitialDetails = {
-    name: '',
+    firstName: '',
     email: '',
     message: ''
   }
 
 
-  const [nome, setNome] = useState('');
+  const [firstName, setFirstName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [formDetails, setFormDetails] = useState(formInitialDetails);
@@ -33,7 +33,8 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    if(formDetails.nome.trim().length!== 0 && formDetails.message.trim().length !== 0 && formDetails.email.trim().length !== 0){
+    console.log(formDetails.firstName.trim().length, formDetails.message.trim().length, formDetails.email.trim().length )
+    if(formDetails.firstName.trim().length!== 0 && formDetails.message.trim().length !== 0 && formDetails.email.trim().length !== 0){
       setButtonText("Enviando...");
       emailjs.sendForm('service_ellnlfh', 'template_92l6g9v', form.current, 'ctoNrpkvEZH01BCbQ')
       .then((result) => {
@@ -72,7 +73,7 @@ export const Contact = () => {
                   <form ref={form} onSubmit={sendEmail}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
-                        <input id="nome" type="text" name="user_name" value={formDetails.firstName} placeholder="Nome" onChange={(e) => onFormUpdate('nome', e.target.value)} />
+                        <input id="nome" type="text" name="user_name" value={formDetails.firstName} placeholder="Nome" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
                         <input id="email" type="email" name="user_email" placeholder="Seu email" onChange={(e) => onFormUpdate('email', e.target.value)} />
